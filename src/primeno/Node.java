@@ -1,9 +1,10 @@
 package primeno;
 
 public class Node<M> {
-    M head;
-    Node next;
-    public void Node(M data){
-        this.head = data;
+    M data;
+    Node<M> next;
+
+    public Node(M data){
+        this.data = data;
     }
 }

@@ -1,7 +1,5 @@
 package primeno;
 
-import java.util.LinkedList;
-
 public class PrimeNumberMain {
     public static void main(String[] args) {
         LinkedList<Integer> primNumber = new LinkedList();
@@ -14,6 +12,6 @@ public class PrimeNumberMain {
                 primNumber.push(i);
             }
         }
-        System.out.println(primNumber);
+        primNumber.display();
     }
 }
