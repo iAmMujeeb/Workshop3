@@ -14,6 +14,7 @@ public class LinkedList<M> {
             head = newNode;
         }
     }
+
     public void display() {
         Node<M> temp = head;
         while (temp != null) {
